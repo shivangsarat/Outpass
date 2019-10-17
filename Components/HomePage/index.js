@@ -29,13 +29,13 @@ export default class HomePage extends React.Component {
                 </View>
 
                 <View style={{ position: "absolute", bottom: 0, width: "100%", flex: 1, flexDirection: 'row', marginBottom: heightPercentageToDP('2%') }}>
-                    <TouchableHighlight style={{ borderColor: "#000", borderWidth: 1, width: "50%", backgroundColor: "#245450" }} onPress={() => this.props.navigation.navigate('Signin')} >
-                        <Text style={{ color: "#fff", marginTop: heightPercentageToDP('3%'), marginBottom: heightPercentageToDP('3%'), textAlign: 'center' }}>
+                    <TouchableHighlight style={{ borderColor: "#002", borderWidth: 1, width: "50%", backgroundColor: "#245450" }} onPress={() => this.props.navigation.navigate('Signin')} >
+                        <Text style={{ color: "#faf", marginTop: heightPercentageToDP('3%'), marginBottom: heightPercentageToDP('3%'), textAlign: 'center' }}>
                             SIGNIN
                         </Text>
                     </TouchableHighlight>
                     <TouchableHighlight style={{ borderColor: "#000", borderWidth: 1, width: "50%", backgroundColor: "#fff" }} >
-                        <Text style={{ color: "#000", marginTop: heightPercentageToDP('3%'), marginBottom: heightPercentageToDP('3%'), textAlign: 'center' }}>
+                        <Text style={{ color: "#002", marginTop: heightPercentageToDP('3%'), marginBottom: heightPercentageToDP('3%'), textAlign: 'center' }}>
                             SIGNUP
                         </Text>
                     </TouchableHighlight>
