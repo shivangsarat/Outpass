@@ -11,7 +11,11 @@ export default class Signin extends React.Component{
             <View style={{marginTop: StatusBar.currentHeight}}>
                 <Form>
                     <Item stackedLabel>
-                        <Label>Name</Label>
+                        <Label>User Name</Label>
+                        <Input />
+                    </Item>
+                    <Item stackedLabel last>
+                        <Label>Password</Label>
                         <Input />
                     </Item>
                 </Form>
