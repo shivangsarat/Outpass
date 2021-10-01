@@ -1,3 +1,3 @@
-This is a Readme file. 
+This is a minor project done for university
 
-We can add some details to this file for any reference related to the project
+To leave the hostel premise, students need to issue an out-pass with the approval of multiple authorities. To fasten and ease out this process, this portal was developed.
